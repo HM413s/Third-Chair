@@ -1,0 +1,87 @@
+# ================================
+# Node / React Frontend
+# ================================
+# Node modules
+/frontend/node_modules/
+
+/node_modules
+.node_modules
+
+__pycache__
+.virtualenv
+
+.env
+/env
+/venv
+.venv
+
+# Build output
+/frontend/build/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/.turbo/
+
+# Misc
+/frontend/.env
+/frontend/.env.*.local
+/frontend/.DS_Store
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/package-lock.json
+/frontend/pnpm-lock.yaml
+
+# IDE
+/frontend/.vscode/
+frontend/.idea/
+
+# ================================
+# FastAPI + Poetry Backend
+# ================================
+# Byte-compiled / optimized / DLL files
+/backend/__pycache__/
+/backend/**/*.py[cod]
+
+# Poetry
+/backend/poetry.lock
+/backend/.venv/
+# Optional if you’re using a global virtualenv, but often good to ignore
+/backend/env/
+/backend/venv/
+
+# dotenv
+/backend/.env
+
+# Mypy / Pyright
+/backend/.mypy_cache/
+/backend/.pytype/
+/backend/typings/
+
+# Pytest
+/backend/.pytest_cache/
+
+# Logs
+/backend/*.log
+
+# Coverage
+/backend/htmlcov/
+/backend/.coverage
+/backend/.coverage.*
+
+# PyInstaller
+/backend/build/
+/backend/dist/
+
+# IDE
+/backend/.vscode/
+backend/.idea/
+
+# ================================
+# General
+# ================================
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log

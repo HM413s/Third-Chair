@@ -1,0 +1,32 @@
+# ================================
+# Node / React Frontend
+# ================================
+# Node modules
+
+/node_modules
+.node_modules
+
+.env
+/env
+/venv
+.venv
+
+# Build output
+# Misc
+
+# IDE
+poetry.lock
+# Ignore build output directories
+.build
+.next
+
+
+# ================================
+# General
+# ================================
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
